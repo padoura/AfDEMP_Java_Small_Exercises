@@ -9,10 +9,10 @@ public class FindLastChar {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        StringBuilder buffer2 = new StringBuilder("10hel10lo10");
-        System.out.println(findLastChar(buffer2, 'l')); 
-    }
+//    public static void main(String[] args) {
+//        StringBuilder buffer2 = new StringBuilder("10hel10lo10");
+//        System.out.println(findLastChar(buffer2, '0')); 
+//    }
     
     private static int findLastChar(StringBuilder buffer, char c){
         int next  = 0;
