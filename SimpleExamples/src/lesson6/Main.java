@@ -12,6 +12,11 @@ package lesson6;
 public class Main {
     
         public static void main(String[] args) {
+            
+            StringBuilder buffer = new StringBuilder("hel10lo10");
+            char searchChar = 'l';
+            System.out.println("\"" + buffer + "\" has its last \'" + searchChar + "\' in position " + FindLastChar.findLastChar(buffer, searchChar));
+            
             System.out.println("Welcome to Factorial Calculator!");
             long num = Factorial.validLong();
             long result = Factorial.factorial(num);
@@ -20,6 +25,6 @@ public class Main {
             System.out.println("Welcome to Fibonacci Sequence Calculator!");
             num = Fibonacci.validLong();
             result = Fibonacci.fibonacci(num);
-            System.out.println(String.format("F(%d) = " + result, num)); 
+            System.out.println(String.format("F(%d) = " + result, num));
         }
 }
